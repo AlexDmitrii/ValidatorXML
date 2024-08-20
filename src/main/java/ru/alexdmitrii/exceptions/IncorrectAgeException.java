@@ -1,8 +1,8 @@
 package ru.alexdmitrii.exceptions;
 
-public class IncorrectAgeError extends Exception {
+public class IncorrectAgeException extends Exception {
 
-    public IncorrectAgeError(){
+    public IncorrectAgeException(){
         super("Возраст заемщика не должен превышать 85 лет.");
     }
 

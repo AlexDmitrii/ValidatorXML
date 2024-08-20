@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Root>
     <ApplicationData>
+        <Borrower>
+            <Age>75</Age>
+            <INN>1234567890</INN>
+        </Borrower>
         <RequestedProducts>
-            <Borrower>
-                <Age>75</Age>
-                <INN>1234567890</INN>
-            </Borrower>
-            <Product id="2" RequestedAmount="1000" RequestedTerm="10"/>
+            <Product id="1" RequestedAmount="500" RequestedTerm="6"/>
         </RequestedProducts>
     </ApplicationData>
 
     <SystemData>
-        <Products>
-            <Product id="1" name="Product A"/>
-            <Product id="2" name="Product B"/>
-        </Products>
+        <LoanProducts>
+            <Product id="1" minAmount="500" maxAmount="50000" minTerm="6" maxTerm="60" name="Product A"/>
+        </LoanProducts>
     </SystemData>
 
     <Params/>
