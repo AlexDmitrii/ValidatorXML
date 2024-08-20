@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <ApplicationData>
+        <RequestedProducts>
+            <Borrower>
+                <Age>75</Age>
+                <INN>1234567890</INN>
+            </Borrower>
+            <Product id="2" RequestedAmount="1000" RequestedTerm="10"/>
+        </RequestedProducts>
+    </ApplicationData>
+
+    <SystemData>
+        <Products>
+            <Product id="1" name="Product A"/>
+            <Product id="2" name="Product B"/>
+        </Products>
+    </SystemData>
+
+    <Params/>
+</Root>
